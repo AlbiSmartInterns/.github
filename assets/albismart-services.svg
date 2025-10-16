@@ -34,7 +34,7 @@
       opacity: 0;
       transform: translateY(20px);
       animation: fadeIn 1s ease-out forwards;
-      animation-delay: 2s; /* start after Welcome fades out */
+      animation-delay: 2s;
     }
 
     .num {
@@ -63,7 +63,6 @@
       animation: fadeIn 1s ease-out forwards;
     }
 
-    /* Staggered appearance */
     #n1, #h1, #d1 { animation-delay: 3s, 2.5s; }
     #n2, #h2, #d2 { animation-delay: 4s, 3.5s; }
     #n3, #h3, #d3 { animation-delay: 5s, 4.5s; }
@@ -79,28 +78,25 @@
 
   <rect width="100%" height="100%" class="bg" />
 
-  <!-- Step 1: Welcome message -->
   <text x="50%" y="350" class="welcome">Welcome to AlbiSmart</text>
 
-  <!-- Step 2: Our Services + Numbers / Headings / Descriptions -->
+
   <text x="50%" y="50" class="title">Our Services</text>
 
-  <!-- Left column -->
-  <text x="170" y="220" id="n1" class="num">01</text>
-  <text x="170" y="280" id="h1" class="heading">ISP Applications</text>
-  <text x="170" y="310" id="d1" class="desc">Your software solution for Internet Service Providers.</text>
+  <text x="130" y="220" id="n1" class="num">01</text>
+  <text x="130" y="280" id="h1" class="heading">ISP Applications</text>
+  <text x="130" y="310" id="d1" class="desc">Your software solution for Internet Service Providers.</text>
 
-  <text x="170" y="420" id="n2" class="num">02</text>
-  <text x="170" y="480" id="h2" class="heading">Refurbishment &amp; Testing Software</text>
-  <text x="170" y="510" id="d2" class="desc">Tools for efficient device refurbishment and testing.</text>
+  <text x="130" y="420" id="n2" class="num">02</text>
+  <text x="130" y="480" id="h2" class="heading">Refurbishment &amp; Testing Software</text>
+  <text x="130" y="510" id="d2" class="desc">Tools for efficient device refurbishment and testing.</text>
 
-  <!-- Right column -->
-  <text x="770" y="220" id="n3" class="num">03</text>
-  <text x="770" y="280" id="h3" class="heading">Accounting &amp; Finance Software</text>
-  <text x="770" y="310" id="d3" class="desc">Streamlined financial management and accounting
+  <text x="720" y="220" id="n3" class="num">03</text>
+  <text x="720" y="280" id="h3" class="heading">Accounting &amp; Finance Software</text>
+  <text x="720" y="310" id="d3" class="desc">Streamlined financial management and accounting
     systems.</text>
 
-  <text x="770" y="420" id="n4" class="num">04</text>
-  <text x="770" y="480" id="h4" class="heading">Outsourcing Services</text>
-  <text x="770" y="510" id="d4" class="desc">Reliable software development outsourcing.</text>
+  <text x="720" y="420" id="n4" class="num">04</text>
+  <text x="720" y="480" id="h4" class="heading">Outsourcing Services</text>
+  <text x="720" y="510" id="d4" class="desc">Reliable software development outsourcing.</text>
 </svg>
