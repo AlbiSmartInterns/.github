@@ -78,25 +78,27 @@
 
   <rect width="100%" height="100%" class="bg" />
 
+  <!-- Welcome message -->
   <text x="50%" y="350" class="welcome">Welcome to AlbiSmart</text>
 
-
+  <!-- Our Services title -->
   <text x="50%" y="50" class="title">Our Services</text>
 
-  <text x="130" y="220" id="n1" class="num">01</text>
-  <text x="130" y="280" id="h1" class="heading">ISP Applications</text>
-  <text x="130" y="310" id="d1" class="desc">Your software solution for Internet Service Providers.</text>
+  <!-- Left column shifted left -->
+  <text x="100" y="220" id="n1" class="num">01</text>
+  <text x="100" y="280" id="h1" class="heading">ISP Applications</text>
+  <text x="100" y="310" id="d1" class="desc">Your software solution for Internet Service Providers.</text>
 
-  <text x="130" y="420" id="n2" class="num">02</text>
-  <text x="130" y="480" id="h2" class="heading">Refurbishment &amp; Testing Software</text>
-  <text x="130" y="510" id="d2" class="desc">Tools for efficient device refurbishment and testing.</text>
+  <text x="100" y="420" id="n2" class="num">02</text>
+  <text x="100" y="480" id="h2" class="heading">Refurbishment &amp; Testing Software</text>
+  <text x="100" y="510" id="d2" class="desc">Tools for efficient device refurbishment and testing.</text>
 
-  <text x="720" y="220" id="n3" class="num">03</text>
-  <text x="720" y="280" id="h3" class="heading">Accounting &amp; Finance Software</text>
-  <text x="720" y="310" id="d3" class="desc">Streamlined financial management and accounting
-    systems.</text>
+  <!-- Right column shifted left -->
+  <text x="690" y="220" id="n3" class="num">03</text>
+  <text x="690" y="280" id="h3" class="heading">Accounting &amp; Finance Software</text>
+  <text x="690" y="310" id="d3" class="desc">Streamlined financial management and accounting systems.</text>
 
-  <text x="720" y="420" id="n4" class="num">04</text>
-  <text x="720" y="480" id="h4" class="heading">Outsourcing Services</text>
-  <text x="720" y="510" id="d4" class="desc">Reliable software development outsourcing.</text>
+  <text x="690" y="420" id="n4" class="num">04</text>
+  <text x="690" y="480" id="h4" class="heading">Outsourcing Services</text>
+  <text x="690" y="510" id="d4" class="desc">Reliable software development outsourcing.</text>
 </svg>
